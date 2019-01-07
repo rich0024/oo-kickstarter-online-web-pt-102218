@@ -7,8 +7,8 @@ class Project
     @title = title
   end
 
-  def back_project(arg)
-    @@backed_projects << arg
+  def self.back_project(title)
+    @@backed_projects << title
   end
 
 
