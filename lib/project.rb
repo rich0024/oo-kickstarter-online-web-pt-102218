@@ -1,6 +1,7 @@
 class Project
 
   attr_accessor :title
+  @@backed_projects = []
 
   def initialize(title)
     @title = title
@@ -8,7 +9,7 @@ class Project
   end
 
   def self.back_project(arg)
-    @projects << arg
+    @backed_projects << arg
   end
 
 
