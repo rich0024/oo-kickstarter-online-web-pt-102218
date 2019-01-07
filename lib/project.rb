@@ -8,6 +8,7 @@ class Project
   end
 
   def self.back_project(title)
+    @title = title
     @@backed_projects << title
   end
 
