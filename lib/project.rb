@@ -4,6 +4,12 @@ class Project
 
   def initialize(title)
     @title = title
+    @projects = []
   end
 
+  def self.back_project(arg)
+    @projects << arg
+  end
+
+  
 end
