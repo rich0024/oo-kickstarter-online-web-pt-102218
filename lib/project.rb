@@ -11,5 +11,5 @@ class Project
     @projects << arg
   end
 
-  
+
 end
