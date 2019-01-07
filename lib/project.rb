@@ -7,7 +7,7 @@ class Project
     @projects = []
   end
 
-  def back_project(arg)
+  def self.back_project(arg)
     @projects << arg
   end
 
