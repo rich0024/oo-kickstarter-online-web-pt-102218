@@ -8,7 +8,7 @@ class Project
   end
 
   def self.back_project(arg)
-    @backed_projects << arg
+    @@backed_projects << arg
   end
 
 
