@@ -13,4 +13,3 @@ class Project
   end
 
 end
-
